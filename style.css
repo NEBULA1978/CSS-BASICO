@@ -6,6 +6,8 @@
     /* Limita el ancho máximo al ancho del navegador */
     margin: 0 auto;
     /* Centra el elemento horizontalmente */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Reglas de estilo para el elemento con ID "header-h1" */
@@ -26,7 +28,10 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
+
 /* Regla de estilo para todos los textos dentro de .header */
 .header h1 {
     background-color: #f0f0f0;
@@ -39,6 +44,8 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Regla de estilo para todos los textos dentro de .sidebar */
@@ -53,6 +60,8 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Reglas de estilo para elementos con clase "content-box" dentro de la clase "content" */
@@ -67,6 +76,8 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Reglas de estilo para el primer h2 en la sección de contenido central */
@@ -85,6 +96,8 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Reglas de estilo para el segundo h2 en la sección de contenido central */
@@ -103,6 +116,8 @@
     /* Espacio de relleno de 10px alrededor del texto */
     border: 1px solid #ccc;
     /* Borde de 1px sólido de color gris claro */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
 
 /* Reglas de estilo para elementos con clase "footer" */
@@ -117,4 +132,6 @@
     /* Espacio de relleno de 5px alrededor del texto */
     border-top: 1px solid #555;
     /* Borde superior de 1px sólido de color gris medio */
+    width: 100%;
+    /* Ajusta el ancho al 100% del contenedor */
 }
