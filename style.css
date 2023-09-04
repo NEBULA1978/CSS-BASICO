@@ -16,21 +16,57 @@
     /* Tamaño de fuente */
     word-wrap: break-word;
     /* Permite el ajuste de palabras al ancho del contenedor */
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    margin-top: 10px;
+    /* Espacio superior de 10px */
+    margin-bottom: 10px;
+    /* Espacio inferior de 10px */
+    padding: 10px;
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
 }
-/* Reglas de estilo para el elemento con ID "sidebar" */
-#sidebar {
-    font-size: 18px;
-    /* Cambia el tamaño de fuente del texto a 18px */
-    font-weight: bold;
-    /* Establece el peso de la fuente en negrita */
+/* Regla de estilo para todos los textos dentro de .header */
+.header h1 {
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    margin-top: 10px;
+    /* Espacio superior de 10px */
+    margin-bottom: 10px;
+    /* Espacio inferior de 10px */
+    padding: 10px;
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
+}
+
+/* Regla de estilo para todos los textos dentro de .sidebar */
+.sidebar h2 {
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    margin-top: 10px;
+    /* Espacio superior de 10px */
+    margin-bottom: 10px;
+    /* Espacio inferior de 10px */
+    padding: 10px;
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
 }
 
 /* Reglas de estilo para elementos con clase "content-box" dentro de la clase "content" */
 .content .content-box {
     background-color: #f0f0f0;
-    /* Cambia el color de fondo a gris claro */
+    /* Color de fondo gris claro */
+    margin-top: 10px;
+    /* Espacio superior de 10px */
+    margin-bottom: 10px;
+    /* Espacio inferior de 10px */
     padding: 10px;
-    /* Agrega espacio de relleno de 10px alrededor del texto */
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
 }
 
 /* Reglas de estilo para el primer h2 en la sección de contenido central */
@@ -40,9 +76,15 @@
     color: #333;
     /* Cambia el color del texto a gris oscuro */
     margin-top: 20px;
-    /* Agrega espacio superior de 20px */
+    /* Espacio superior de 20px */
     margin-bottom: 10px;
-    /* Agrega espacio inferior de 10px */
+    /* Espacio inferior de 10px */
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    padding: 10px;
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
 }
 
 /* Reglas de estilo para el segundo h2 en la sección de contenido central */
@@ -52,9 +94,15 @@
     color: #555;
     /* Cambia el color del texto a gris medio */
     margin-top: 10px;
-    /* Agrega espacio superior de 10px */
+    /* Espacio superior de 10px */
     margin-bottom: 20px;
-    /* Agrega espacio inferior de 20px */
+    /* Espacio inferior de 20px */
+    background-color: #f0f0f0;
+    /* Color de fondo gris claro */
+    padding: 10px;
+    /* Espacio de relleno de 10px alrededor del texto */
+    border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
 }
 
 /* Reglas de estilo para elementos con clase "footer" */
@@ -66,5 +114,7 @@
     color: white;
     /* Cambia el color del texto a blanco */
     padding: 5px;
-    /* Agrega espacio de relleno de 5px alrededor del texto */
+    /* Espacio de relleno de 5px alrededor del texto */
+    border-top: 1px solid #555;
+    /* Borde superior de 1px sólido de color gris medio */
 }
