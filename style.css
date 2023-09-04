@@ -1,59 +1,70 @@
-/* menu navbar arribadel todo */
+/* Regla de estilo para la sección de encabezado */
 .header {
-    background-color: red;
-    float: left;
-    height: 40px;
-    width: 100%;
-}
-h1{
-    color:black;
-}
-
-h2{
-    color:blueviolet
-}
-/* menu navbar arribadel todo */
-.sidebar {
-    float: left;
-    height: 400px;
-    width: 25%;
-    background-color: blue;
-}
-/* h1 del header */
-#header{
-    color:blue;
-}
-/* contenido menu principal */
-.content {
-    float: left;
-    height: 400px;
-    width: 75%;
-    background-color: green;
-    overflow: hidden;
-    /* Agrega esta línea */
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    max-width: 100%;
+    /* Limita el ancho máximo al ancho del navegador */
+    margin: 0 auto;
+    /* Centra el elemento horizontalmente */
 }
 
-/* .footer{
-    float: left;
-    height: 50px;
-    width: 100%;
-    background-color:green;
-} */
+/* Reglas de estilo para el elemento con ID "header-h1" */
+#header-h1 {
+    color: black;
+    /* Cambia el color del texto a negro */
+    font-size: 24px;
+    /* Tamaño de fuente */
+    word-wrap: break-word;
+    /* Permite el ajuste de palabras al ancho del contenedor */
+}
+/* Reglas de estilo para el elemento con ID "sidebar" */
+#sidebar {
+    font-size: 18px;
+    /* Cambia el tamaño de fuente del texto a 18px */
+    font-weight: bold;
+    /* Establece el peso de la fuente en negrita */
+}
 
+/* Reglas de estilo para elementos con clase "content-box" dentro de la clase "content" */
+.content .content-box {
+    background-color: #f0f0f0;
+    /* Cambia el color de fondo a gris claro */
+    padding: 10px;
+    /* Agrega espacio de relleno de 10px alrededor del texto */
+}
+
+/* Reglas de estilo para el primer h2 en la sección de contenido central */
+.content-title {
+    font-size: 24px;
+    /* Tamaño de fuente de 24px */
+    color: #333;
+    /* Cambia el color del texto a gris oscuro */
+    margin-top: 20px;
+    /* Agrega espacio superior de 20px */
+    margin-bottom: 10px;
+    /* Agrega espacio inferior de 10px */
+}
+
+/* Reglas de estilo para el segundo h2 en la sección de contenido central */
+.content-box {
+    font-style: italic;
+    /* Cambia el estilo de fuente a cursiva */
+    color: #555;
+    /* Cambia el color del texto a gris medio */
+    margin-top: 10px;
+    /* Agrega espacio superior de 10px */
+    margin-bottom: 20px;
+    /* Agrega espacio inferior de 20px */
+}
+
+/* Reglas de estilo para elementos con clase "footer" */
 .footer {
-    float: left;
-    height: 50px;
-    width: 100%;
-    background-color: yellow;
-    /* Cambia el color a amarillo */
-}
-
-/* clase */
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: gray;
-    margin: 5px;
-    /* si caben se pone todos en linea sino pasan abajo */
-    float: left;
+    text-align: center;
+    /* Centra el texto en el elemento */
+    background-color: #333;
+    /* Cambia el color de fondo a gris oscuro */
+    color: white;
+    /* Cambia el color del texto a blanco */
+    padding: 5px;
+    /* Agrega espacio de relleno de 5px alrededor del texto */
 }
