@@ -8,6 +8,8 @@
     /* Centra el elemento horizontalmente */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Reglas de estilo para el elemento con ID "header-h1" */
@@ -30,6 +32,8 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Regla de estilo para todos los textos dentro de .header */
@@ -46,6 +50,8 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Regla de estilo para todos los textos dentro de .sidebar */
@@ -62,6 +68,8 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Reglas de estilo para elementos con clase "content-box" dentro de la clase "content" */
@@ -78,6 +86,8 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Reglas de estilo para el primer h2 en la sección de contenido central */
@@ -98,6 +108,11 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
+    /* poner en negrita texto */
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* Reglas de estilo para el segundo h2 en la sección de contenido central */
@@ -118,6 +133,8 @@
     /* Borde de 1px sólido de color gris claro */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
 
 /* Reglas de estilo para elementos con clase "footer" */
@@ -134,4 +151,6 @@
     /* Borde superior de 1px sólido de color gris medio */
     width: 100%;
     /* Ajusta el ancho al 100% del contenedor */
+    height: 150px;
+    /* Establece la altura en 150px */
 }
